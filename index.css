@@ -1,27 +1,6 @@
-.section1 {
-    margin-bottom: 100px;
-    height:1000px;
-}
-
-.section1 .container img {
-    width: 100%;
-    height: 100%;
-}
-
-@media(max-width:1400px) {
-    .section1 {
-        display: none;
-    }
-}
-
-@media(max-width:969px) {
-    .section1 {
-        display: block;
-    }
-}
-
 .section2 {
     margin: 100px 0;
+    padding-top:100px;
 }
 
 .section2 .container {
@@ -97,6 +76,7 @@
     left: 25%;
     bottom: 3%;
     gap: 15px;
+    cursor: pointer;
 }
 
 .section2 .container .round-btn .circle {
@@ -106,6 +86,7 @@
     height: 20px;
     border-radius: 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 @media(max-width:1400px) {
@@ -261,6 +242,13 @@
     opacity: 1;
 }
 
+.section4 .container .boxes .hover .color a img{
+    transition:0.2s;
+}
+.section4 .container .boxes .hover .color a:hover img{
+    filter:invert(0.4)
+}
+
 .section4 .container .boxes .under-text {
     margin-top: 10px;
 }
@@ -321,9 +309,9 @@
 }
 
 .section5 .container .left .text h1 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'NanumSquareLight';
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 5px
 }
 
@@ -363,9 +351,9 @@
 }
 
 .section5 .container .right .text h1 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'NanumSquareLight';
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 5px
 }
 
@@ -509,11 +497,11 @@
 .section6 .container .boxes .item .right-arrow {
     position: absolute;
     transition: 0.5s;
-    transform: rotate(-90deg);
+    transform: rotate(-90deg) scale(0.8);
 }
 
 .section6 .container .boxes .item:hover .right-arrow {
-    transform: scale(1.4) rotate(0deg);
+    transform: scale(1.2) rotate(0deg);
 }
 
 .section6 .container .boxes .item:nth-child(1) .right-arrow {

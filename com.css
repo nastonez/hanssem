@@ -64,7 +64,7 @@ header .container .ham-btn {
     top: 50%;
     transform: translateY(-50%);
     display: none;
-
+    cursor: pointer;
 }
 
 header .container .ham-btn .btn {
@@ -166,6 +166,10 @@ header .container .menu .menu-li:nth-child(1) .sub .sub-main .sub-list {
 
 header .container .menu .menu-li .sub .sub-main .sub-list .sub-li {
     font-weight: 400;
+}
+
+header .container .menu .menu-li .sub .sub-main .sub-list .sub-li:hover a{
+    color:#ee0000;
 }
 
 header .container .right-icon {

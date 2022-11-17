@@ -36,7 +36,7 @@ $(".noti-box .side-box .boxin").click(function () {
 })
 
 function sb() {
-    $(".noti-box .side-box .boxin .menu_inside").slideUp()
+    $(".noti-box .side-box .boxin").not($(".noti-box .side-box .boxin").eq(num)).find(".menu_inside").slideUp()
     $(".noti-box .side-box .boxin").eq(num).find(".menu_inside").slideDown()
 }
 
